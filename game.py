@@ -79,7 +79,7 @@ def CheckColumns():
 
     if column1 or column2 or column3:
         gameIsRunning = False
-        GameOver(GetPlayerTag() + " has won the game by three in a row!!!")
+        GameOver(GetPlayerTag() + " has won the game by three in a column!!!")
     return
 
 
@@ -91,7 +91,7 @@ def CheckDiagonals():
 
     if diagonal1 or diagonal2:
         gameIsRunning = False
-        GameOver(GetPlayerTag() + " has won the game by three in a row!!!")
+        GameOver(GetPlayerTag() + " has won the game by three in diagonal!!!")
     return
 
 
